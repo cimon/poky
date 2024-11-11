@@ -29,7 +29,7 @@ CFLAGS_append_powerpc64 = " -D__SANE_USERSPACE_TYPES__"
 CFLAGS_append_mipsarchn64 = " -D__SANE_USERSPACE_TYPES__"
 SRCREV = "ac33ef87f0b9dc56533026435be3ea8c67ce86d2"
 
-SRC_URI = "git://github.com/linux-test-project/ltp.git \
+SRC_URI = "git://github.com/linux-test-project/ltp.git;branch=master;protocol=https \
            file://0001-build-Add-option-to-select-libc-implementation.patch \
            file://0002-kernel-controllers-Link-with-libfts-explicitly-on-mu.patch \
            file://0003-Check-if-__GLIBC_PREREQ-is-defined-before-using-it.patch \

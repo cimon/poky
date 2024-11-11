@@ -6,7 +6,7 @@ inherit autotools gettext pkgconfig gtk-doc
 
 DEPENDS = "libtasn1 libffi"
 
-SRC_URI = "git://github.com/p11-glue/p11-kit \
+SRC_URI = "git://github.com/p11-glue/p11-kit;branch=0.23;protocol=https \
            file://0001-LINGUAS-drop-the-languages-for-which-upstream-does-n.patch \
            "
 SRCREV = "c689917b393379d288b868f70b2f7b7f6aafe430"

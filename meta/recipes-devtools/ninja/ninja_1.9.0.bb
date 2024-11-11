@@ -7,7 +7,7 @@ DEPENDS = "re2c-native ninja-native"
 
 SRCREV = "b25c08bda4949192c69cea4cee057887341a2ffc"
 
-SRC_URI = "git://github.com/ninja-build/ninja.git;branch=release \
+SRC_URI = "git://github.com/ninja-build/ninja.git;branch=release;protocol=https \
            file://fix-musl.patch \
 "
 UPSTREAM_CHECK_GITTAGREGEX = "v(?P<pver>.*)"
